@@ -122,7 +122,7 @@ const int STATISTICS_SAVE_INTERVAL = std::chrono::milliseconds(15min).count();
 namespace
 {
     const char PEER_ID[] = "UT";
-    const auto USER_AGENT = QStringLiteral("μTorrent/" "1772");
+    const auto USER_AGENT = QStringLiteral("Transmission " "2.9.4");
 
     void torrentQueuePositionUp(const lt::torrent_handle &handle)
     {
