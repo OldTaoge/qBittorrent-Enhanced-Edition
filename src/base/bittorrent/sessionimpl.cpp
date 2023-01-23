@@ -122,7 +122,7 @@ const int STATISTICS_SAVE_INTERVAL = std::chrono::milliseconds(15min).count();
 namespace
 {
     const char PEER_ID[] = "TR";
-    const auto USER_AGENT = QStringLiteral("Transmission " "2.9.4");
+    const auto USER_AGENT = QStringLiteral("Transmission/" "2.94");
 
     void torrentQueuePositionUp(const lt::torrent_handle &handle)
     {
@@ -1492,7 +1492,7 @@ void SessionImpl::initializeNativeSession()
 {
     lt::settings_pack pack = loadLTSettings();
 
-    const std::string peerId = lt::generate_fingerprint(PEER_ID, QBT_VERSION_MAJOR, QBT_VERSION_MINOR, QBT_VERSION_BUGFIX, QBT_VERSION_BUILD);
+    const std::string peerId = lt::generate_fingerprint(PEER_ID, 2, 9, 7, 0);
     pack.set_str(lt::settings_pack::peer_fingerprint, peerId);
 
     pack.set_bool(lt::settings_pack::listen_system_port_fallback, false);
