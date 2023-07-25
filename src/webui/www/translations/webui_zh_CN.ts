@@ -52,19 +52,19 @@
     </message>
     <message>
         <source>Metadata received</source>
-        <translation type="unfinished" />
+        <translation>已收到元数据</translation>
     </message>
     <message>
         <source>Files checked</source>
-        <translation type="unfinished" />
+        <translation>已检查的文件</translation>
     </message>
     <message>
         <source>Stop condition:</source>
-        <translation type="unfinished" />
+        <translation>停止条件：</translation>
     </message>
     <message>
         <source>None</source>
-        <translation type="unfinished" />
+        <translation>无</translation>
     </message>
 </context>
 <context>
@@ -605,11 +605,11 @@
     </message>
     <message>
         <source>Would you like to resume all torrents?</source>
-        <translation type="unfinished" />
+        <translation>你要继续下载所有的种子吗？</translation>
     </message>
     <message>
         <source>Would you like to pause all torrents?</source>
-        <translation type="unfinished" />
+        <translation>你要暂停所有的种子吗？</translation>
     </message>
 </context>
 <context>
@@ -783,10 +783,6 @@
         <translation>类型：</translation>
     </message>
     <message>
-        <source>(None)</source>
-        <translation>(无)</translation>
-    </message>
-    <message>
         <source>SOCKS4</source>
         <translation>SOCKS4</translation>
     </message>
@@ -809,10 +805,6 @@
     <message>
         <source>Use proxy for peer connections</source>
         <translation>使用代理服务器进行用户连接</translation>
-    </message>
-    <message>
-        <source>Use proxy only for torrents</source>
-        <translation>只对 torrent 使用代理</translation>
     </message>
     <message>
         <source>Filter path (.dat, .p2p, .p2b):</source>
@@ -1622,35 +1614,55 @@ Use ';' to split multiple entries. Can use wildcard '*'.</source>
     </message>
     <message>
         <source>Files checked</source>
-        <translation type="unfinished" />
+        <translation>选中的文件</translation>
     </message>
     <message>
         <source>Enable port forwarding for embedded tracker:</source>
-        <translation type="unfinished" />
+        <translation>对嵌入的 tracker 启用端口转发</translation>
     </message>
     <message>
         <source>If checked, hostname lookups are done via the proxy.</source>
-        <translation type="unfinished" />
+        <translation>勾选后将通过代理查找主机名</translation>
     </message>
     <message>
         <source>Use proxy for hostname lookup</source>
-        <translation type="unfinished" />
+        <translation>使用代理进行主机名查询</translation>
     </message>
     <message>
         <source>Metadata received</source>
-        <translation type="unfinished" />
+        <translation>已收到元数据</translation>
     </message>
     <message>
         <source>Torrent stop condition:</source>
-        <translation type="unfinished" />
+        <translation>种子停止条件：</translation>
     </message>
     <message>
         <source>None</source>
-        <translation type="unfinished" />
+        <translation>无</translation>
     </message>
     <message>
         <source>Example: 172.17.32.0/24, fdff:ffff:c8::/40</source>
-        <translation type="unfinished" />
+        <translation>示例：172.17.32.0/24, fdff:ffff:c8::/40</translation>
+    </message>
+    <message>
+        <source>SQLite database (experimental)</source>
+        <translation>SQLite数据库（实验性功能）</translation>
+    </message>
+    <message>
+        <source>Resume data storage type (requires restart):</source>
+        <translation>恢复数据存储类型（需要重新启动）：</translation>
+    </message>
+    <message>
+        <source>Fastresume files</source>
+        <translation>快速恢复文件</translation>
+    </message>
+    <message>
+        <source>(None)</source>
+        <translation>(无)</translation>
+    </message>
+    <message>
+        <source>Use proxy only for torrents</source>
+        <translation>只对 torrent 使用代理</translation>
     </message>
 </context>
 <context>
@@ -1733,7 +1745,7 @@ Use ';' to split multiple entries. Can use wildcard '*'.</source>
     </message>
     <message>
         <source>Peer ID Client</source>
-        <translation type="unfinished" />
+        <translation>Peer ID 客戶端</translation>
     </message>
 </context>
 <context>
@@ -3647,4 +3659,7 @@ Supports the formats: S01E01, 1x1, 2017.12.31 and 31.12.2017 (Date formats also 
         <translation>未读</translation>
     </message>
 </context>
+<context>
+    <name>ExecutionLogWidget</name>
+    </context>
 </TS>

@@ -52,19 +52,19 @@
     </message>
     <message>
         <source>Metadata received</source>
-        <translation type="unfinished" />
+        <translation>Metadata ontvangen</translation>
     </message>
     <message>
         <source>Files checked</source>
-        <translation type="unfinished" />
+        <translation>Bestanden gecontroleerd</translation>
     </message>
     <message>
         <source>Stop condition:</source>
-        <translation type="unfinished" />
+        <translation>Stop-voorwaarde:</translation>
     </message>
     <message>
         <source>None</source>
-        <translation type="unfinished" />
+        <translation>Geen</translation>
     </message>
 </context>
 <context>
@@ -605,11 +605,11 @@
     </message>
     <message>
         <source>Would you like to resume all torrents?</source>
-        <translation type="unfinished" />
+        <translation>Wilt u alle torrents hervatten?</translation>
     </message>
     <message>
         <source>Would you like to pause all torrents?</source>
-        <translation type="unfinished" />
+        <translation>Wilt u alle torrents pauzeren?</translation>
     </message>
 </context>
 <context>
@@ -783,10 +783,6 @@
         <translation>Type:</translation>
     </message>
     <message>
-        <source>(None)</source>
-        <translation>(Geen)</translation>
-    </message>
-    <message>
         <source>SOCKS4</source>
         <translation>SOCKS4</translation>
     </message>
@@ -809,10 +805,6 @@
     <message>
         <source>Use proxy for peer connections</source>
         <translation>Proxy gebruiken voor peer-verbindingen</translation>
-    </message>
-    <message>
-        <source>Use proxy only for torrents</source>
-        <translation>Proxy alleen voor torrents gebruiken</translation>
     </message>
     <message>
         <source>Filter path (.dat, .p2p, .p2b):</source>
@@ -1622,35 +1614,55 @@ Gebruik ';' om meerdere items te splitsen. Jokerteken '*' kan gebruikt worden.</
     </message>
     <message>
         <source>Files checked</source>
-        <translation type="unfinished" />
+        <translation>Bestanden gecontroleerd</translation>
     </message>
     <message>
         <source>Enable port forwarding for embedded tracker:</source>
-        <translation type="unfinished" />
+        <translation>Port forwarding inschakelen voor ingebedde tracker:</translation>
     </message>
     <message>
         <source>If checked, hostname lookups are done via the proxy.</source>
-        <translation type="unfinished" />
+        <translation>Indien aangevinkt, worden hostnamen opgezocht via de proxy.</translation>
     </message>
     <message>
         <source>Use proxy for hostname lookup</source>
-        <translation type="unfinished" />
+        <translation>Proxy gebruiken voor opzoeken van hostnamen</translation>
     </message>
     <message>
         <source>Metadata received</source>
-        <translation type="unfinished" />
+        <translation>Metadata ontvangen</translation>
     </message>
     <message>
         <source>Torrent stop condition:</source>
-        <translation type="unfinished" />
+        <translation>Stop-voowaarde torrent:</translation>
     </message>
     <message>
         <source>None</source>
-        <translation type="unfinished" />
+        <translation>Geen</translation>
     </message>
     <message>
         <source>Example: 172.17.32.0/24, fdff:ffff:c8::/40</source>
-        <translation type="unfinished" />
+        <translation>Voorbeeld: 172.17.32.0/24, fdff:ffff:c8::/40</translation>
+    </message>
+    <message>
+        <source>SQLite database (experimental)</source>
+        <translation>SQLite-database (experimenteel)</translation>
+    </message>
+    <message>
+        <source>Resume data storage type (requires restart):</source>
+        <translation>Opslagtype hervattingsgegevens (opnieuw starten vereist):</translation>
+    </message>
+    <message>
+        <source>Fastresume files</source>
+        <translation>Bestanden voor snel hervatten</translation>
+    </message>
+    <message>
+        <source>(None)</source>
+        <translation>(Geen)</translation>
+    </message>
+    <message>
+        <source>Use proxy only for torrents</source>
+        <translation>Proxy alleen voor torrents gebruiken</translation>
     </message>
 </context>
 <context>
@@ -1733,7 +1745,7 @@ Gebruik ';' om meerdere items te splitsen. Jokerteken '*' kan gebruikt worden.</
     </message>
     <message>
         <source>Peer ID Client</source>
-        <translation type="unfinished" />
+        <translation>Peer-ID client</translation>
     </message>
 </context>
 <context>
@@ -3580,7 +3592,7 @@ Gebruik ';' om meerdere items te splitsen. Jokerteken '*' kan gebruikt worden.</
     </message>
     <message>
         <source>Rename rule...</source>
-        <translation>Regel hernoemen...</translation>
+        <translation>Naam van regel wijzigen...</translation>
     </message>
     <message>
         <source>Last Match: Unknown</source>
@@ -3647,4 +3659,7 @@ Ondersteunt de formaten:  S01E01, 1x1, 2017.12.31 en 31.12.2017 (datumformaten o
         <translation>Ongelezen</translation>
     </message>
 </context>
+<context>
+    <name>ExecutionLogWidget</name>
+    </context>
 </TS>

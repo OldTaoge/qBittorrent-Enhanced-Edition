@@ -52,19 +52,19 @@
     </message>
     <message>
         <source>Metadata received</source>
-        <translation type="unfinished" />
+        <translation>Metadata stažena</translation>
     </message>
     <message>
         <source>Files checked</source>
-        <translation type="unfinished" />
+        <translation>Soubory zkontrolovány</translation>
     </message>
     <message>
         <source>Stop condition:</source>
-        <translation type="unfinished" />
+        <translation>Podmínka zastavení:</translation>
     </message>
     <message>
         <source>None</source>
-        <translation type="unfinished" />
+        <translation>Žádná</translation>
     </message>
 </context>
 <context>
@@ -605,11 +605,11 @@
     </message>
     <message>
         <source>Would you like to resume all torrents?</source>
-        <translation type="unfinished" />
+        <translation>Přejete si obnovit všechny torrenty?</translation>
     </message>
     <message>
         <source>Would you like to pause all torrents?</source>
-        <translation type="unfinished" />
+        <translation>Přejete si pozastavit všechny torrenty?</translation>
     </message>
 </context>
 <context>
@@ -783,10 +783,6 @@
         <translation>Typ:</translation>
     </message>
     <message>
-        <source>(None)</source>
-        <translation>(žádný)</translation>
-    </message>
-    <message>
         <source>SOCKS4</source>
         <translation>SOCKS4</translation>
     </message>
@@ -809,10 +805,6 @@
     <message>
         <source>Use proxy for peer connections</source>
         <translation>Použít proxy pro připojení k peerům</translation>
-    </message>
-    <message>
-        <source>Use proxy only for torrents</source>
-        <translation>Použít proxy pouze pro torrenty</translation>
     </message>
     <message>
         <source>Filter path (.dat, .p2p, .p2b):</source>
@@ -1622,35 +1614,55 @@ Použijte ';' pro oddělení více položek. Můžete použít masku '*'.</trans
     </message>
     <message>
         <source>Files checked</source>
-        <translation type="unfinished" />
+        <translation>Soubory zkontrolovány</translation>
     </message>
     <message>
         <source>Enable port forwarding for embedded tracker:</source>
-        <translation type="unfinished" />
+        <translation>Zapnout přesměrování portu pro vestavěný tracker:</translation>
     </message>
     <message>
         <source>If checked, hostname lookups are done via the proxy.</source>
-        <translation type="unfinished" />
+        <translation>Pokud je zapnuto, zjištění názvu hostitele probíhá přes proxy server.</translation>
     </message>
     <message>
         <source>Use proxy for hostname lookup</source>
-        <translation type="unfinished" />
+        <translation>Použít proxy pro zjištění názvu hostitele</translation>
     </message>
     <message>
         <source>Metadata received</source>
-        <translation type="unfinished" />
+        <translation>Metadata stažena</translation>
     </message>
     <message>
         <source>Torrent stop condition:</source>
-        <translation type="unfinished" />
+        <translation>Podmínka zastavení torrentu:</translation>
     </message>
     <message>
         <source>None</source>
-        <translation type="unfinished" />
+        <translation>Žádná</translation>
     </message>
     <message>
         <source>Example: 172.17.32.0/24, fdff:ffff:c8::/40</source>
-        <translation type="unfinished" />
+        <translation>Příklad: 172.17.32.0/24, fdff:ffff:c8::/40</translation>
+    </message>
+    <message>
+        <source>SQLite database (experimental)</source>
+        <translation>SQLite databáze (experimental)</translation>
+    </message>
+    <message>
+        <source>Resume data storage type (requires restart):</source>
+        <translation>Obnovit typ úložného prostoru (vyžaduje restart):</translation>
+    </message>
+    <message>
+        <source>Fastresume files</source>
+        <translation>Soubory rychlého obnovení</translation>
+    </message>
+    <message>
+        <source>(None)</source>
+        <translation>(žádný)</translation>
+    </message>
+    <message>
+        <source>Use proxy only for torrents</source>
+        <translation>Použít proxy pouze pro torrenty</translation>
     </message>
 </context>
 <context>
@@ -1733,7 +1745,7 @@ Použijte ';' pro oddělení více položek. Můžete použít masku '*'.</trans
     </message>
     <message>
         <source>Peer ID Client</source>
-        <translation type="unfinished" />
+        <translation> Peer ID klienta</translation>
     </message>
 </context>
 <context>
@@ -3647,4 +3659,7 @@ Podporuje formáty: S01E01, 1x1, 2017.12.31 a 31.12.2017 (Formáty dat také pod
         <translation>Nepřečtené</translation>
     </message>
 </context>
+<context>
+    <name>ExecutionLogWidget</name>
+    </context>
 </TS>

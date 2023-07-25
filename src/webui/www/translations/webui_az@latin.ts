@@ -52,19 +52,19 @@
     </message>
     <message>
         <source>Metadata received</source>
-        <translation type="unfinished" />
+        <translation>Meta məlumatları alındı</translation>
     </message>
     <message>
         <source>Files checked</source>
-        <translation type="unfinished" />
+        <translation>Fayllar yoxlanıldı</translation>
     </message>
     <message>
         <source>Stop condition:</source>
-        <translation type="unfinished" />
+        <translation>Dayandma vəziyyəti:</translation>
     </message>
     <message>
         <source>None</source>
-        <translation type="unfinished" />
+        <translation>Heç nə</translation>
     </message>
 </context>
 <context>
@@ -605,11 +605,11 @@
     </message>
     <message>
         <source>Would you like to resume all torrents?</source>
-        <translation type="unfinished" />
+        <translation>Bütün torrentlər davam etdirilsin?</translation>
     </message>
     <message>
         <source>Would you like to pause all torrents?</source>
-        <translation type="unfinished" />
+        <translation>Bütün torrenlərə fasilə verilsin?</translation>
     </message>
 </context>
 <context>
@@ -783,10 +783,6 @@
         <translation>Növ:</translation>
     </message>
     <message>
-        <source>(None)</source>
-        <translation>(Heç nə)</translation>
-    </message>
-    <message>
         <source>SOCKS4</source>
         <translation>SOCKS4</translation>
     </message>
@@ -809,10 +805,6 @@
     <message>
         <source>Use proxy for peer connections</source>
         <translation>Proksi serveri iştirakçı bağlantıları üçün istifadə etmək</translation>
-    </message>
-    <message>
-        <source>Use proxy only for torrents</source>
-        <translation>Proksini yalnız torrentlər üçün istifadə etmək</translation>
     </message>
     <message>
         <source>Filter path (.dat, .p2p, .p2b):</source>
@@ -1622,35 +1614,55 @@ serveri tərəfindən istifadə olunan domen adını göstərməlisiniz.
     </message>
     <message>
         <source>Files checked</source>
-        <translation type="unfinished" />
+        <translation>Fayllar yoxlanıldı</translation>
     </message>
     <message>
         <source>Enable port forwarding for embedded tracker:</source>
-        <translation type="unfinished" />
+        <translation>Daxildə olan izləyicilər üçün port yönləndirməsini aktiv et:</translation>
     </message>
     <message>
         <source>If checked, hostname lookups are done via the proxy.</source>
-        <translation type="unfinished" />
+        <translation>Əgər işarələnərsə, host adı axtarışı proksi ilə icra olunur.</translation>
     </message>
     <message>
         <source>Use proxy for hostname lookup</source>
-        <translation type="unfinished" />
+        <translation>Host adı axtarışı ümün proksi istifadə et</translation>
     </message>
     <message>
         <source>Metadata received</source>
-        <translation type="unfinished" />
+        <translation>Meta məlumatları alındı</translation>
     </message>
     <message>
         <source>Torrent stop condition:</source>
-        <translation type="unfinished" />
+        <translation>Torrentin dayanma vəziyyəti:</translation>
     </message>
     <message>
         <source>None</source>
-        <translation type="unfinished" />
+        <translation>Heç nə</translation>
     </message>
     <message>
         <source>Example: 172.17.32.0/24, fdff:ffff:c8::/40</source>
-        <translation type="unfinished" />
+        <translation>Nümunə: 172.17.32.0/24, fdff:ffff:c8::/40</translation>
+    </message>
+    <message>
+        <source>SQLite database (experimental)</source>
+        <translation>SQLite verilənlər bazası (təcrübə üçün)</translation>
+    </message>
+    <message>
+        <source>Resume data storage type (requires restart):</source>
+        <translation>Davam etdirmə məlumatlarının saxlanılması növü (yenidən başladılmalıdır):</translation>
+    </message>
+    <message>
+        <source>Fastresume files</source>
+        <translation>Cəld davametdirmə faylları</translation>
+    </message>
+    <message>
+        <source>(None)</source>
+        <translation>(Heç nə)</translation>
+    </message>
+    <message>
+        <source>Use proxy only for torrents</source>
+        <translation>Proksini yalnız torrentlər üçün istifadə etmək</translation>
     </message>
 </context>
 <context>
@@ -1733,7 +1745,7 @@ serveri tərəfindən istifadə olunan domen adını göstərməlisiniz.
     </message>
     <message>
         <source>Peer ID Client</source>
-        <translation type="unfinished" />
+        <translation>İştirakçının İD müştərisi</translation>
     </message>
 </context>
 <context>
@@ -2381,7 +2393,7 @@ serveri tərəfindən istifadə olunan domen adını göstərməlisiniz.
     </message>
     <message>
         <source>Edit tracker URL...</source>
-        <translation>İzləyici URL-na dezəliş edin...</translation>
+        <translation>İzləyici URL-na düzəliş edin...</translation>
     </message>
     <message>
         <source>Tracker editing</source>
@@ -2516,7 +2528,7 @@ serveri tərəfindən istifadə olunan domen adını göstərməlisiniz.
     </message>
     <message>
         <source>[F] Downloading metadata</source>
-        <translation>[F] Meta verilənləri endirilir</translation>
+        <translation>[F] Torrent verilənləri endirilir</translation>
     </message>
 </context>
 <context>
@@ -3647,4 +3659,7 @@ Bu formatlar dəstəklənir: S01E01, 1x1, 2017.12.31 və 31.12.2017 (Həmçinin 
         <translation>Oxunmamış</translation>
     </message>
 </context>
+<context>
+    <name>ExecutionLogWidget</name>
+    </context>
 </TS>

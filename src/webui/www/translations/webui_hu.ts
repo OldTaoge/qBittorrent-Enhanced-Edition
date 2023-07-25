@@ -52,19 +52,19 @@
     </message>
     <message>
         <source>Metadata received</source>
-        <translation type="unfinished" />
+        <translation>Metaadat fogadva</translation>
     </message>
     <message>
         <source>Files checked</source>
-        <translation type="unfinished" />
+        <translation>Fájlok ellenőrizve</translation>
     </message>
     <message>
         <source>Stop condition:</source>
-        <translation type="unfinished" />
+        <translation>Stop feltétel:</translation>
     </message>
     <message>
         <source>None</source>
-        <translation type="unfinished" />
+        <translation>Nincs</translation>
     </message>
 </context>
 <context>
@@ -181,7 +181,7 @@
     </message>
     <message>
         <source>The port used for the Web UI must be between 1 and 65535.</source>
-        <translation>Web UI-hoz használt portnak 1024 és 65535 közé kell esnie.</translation>
+        <translation>Web UI-hoz használt portnak 1 és 65535 közé kell esnie.</translation>
     </message>
     <message>
         <source>Unable to log in, qBittorrent is probably unreachable.</source>
@@ -289,7 +289,7 @@
     </message>
     <message>
         <source>Download Torrents from their URLs or Magnet links</source>
-        <translation>Torrent letöltése URL-ről vagy Magnet linkről</translation>
+        <translation>Torrentek letöltése URL-ről vagy Magnet linkről</translation>
     </message>
     <message>
         <source>Upload local torrent</source>
@@ -349,7 +349,7 @@
     </message>
     <message>
         <source>Register to handle magnet links...</source>
-        <translation>Regisztráljon a magnet linkek kezeléséhez...</translation>
+        <translation>Regisztrálja a magnet linkek kezeléséhez...</translation>
     </message>
     <message>
         <source>Unable to add peers. Please ensure you are adhering to the IP:port format.</source>
@@ -428,7 +428,7 @@
     </message>
     <message>
         <source>Speed in Title Bar</source>
-        <translation>Sebesség a címsoron</translation>
+        <translation>Sebesség a címsorban</translation>
     </message>
     <message>
         <source>Donate!</source>
@@ -605,11 +605,11 @@
     </message>
     <message>
         <source>Would you like to resume all torrents?</source>
-        <translation type="unfinished" />
+        <translation>Folytatja az összes torrentet?</translation>
     </message>
     <message>
         <source>Would you like to pause all torrents?</source>
-        <translation type="unfinished" />
+        <translation>Szünetelteti az összes torrentet?</translation>
     </message>
 </context>
 <context>
@@ -752,7 +752,7 @@
     </message>
     <message>
         <source>Use UPnP / NAT-PMP port forwarding from my router</source>
-        <translation>UPnP / NAT-PMP használata a portok átirányítására</translation>
+        <translation>UPnP / NAT-PMP használata a portok átirányítására a routernél</translation>
     </message>
     <message>
         <source>Connections Limits</source>
@@ -783,10 +783,6 @@
         <translation>Típus:</translation>
     </message>
     <message>
-        <source>(None)</source>
-        <translation>(Nincs)</translation>
-    </message>
-    <message>
         <source>SOCKS4</source>
         <translation>SOCKS4</translation>
     </message>
@@ -800,7 +796,7 @@
     </message>
     <message>
         <source>Host:</source>
-        <translation>Host:</translation>
+        <translation>Kiszolgáló:</translation>
     </message>
     <message>
         <source>Port:</source>
@@ -809,10 +805,6 @@
     <message>
         <source>Use proxy for peer connections</source>
         <translation>Proxy használata a peerkapcsolatokhoz</translation>
-    </message>
-    <message>
-        <source>Use proxy only for torrents</source>
-        <translation>Csak a torrentekhez használjon proxyt</translation>
     </message>
     <message>
         <source>Filter path (.dat, .p2p, .p2b):</source>
@@ -910,7 +902,7 @@
     </message>
     <message>
         <source>Enable anonymous mode</source>
-        <translation>Névtelen mód engedélyezése</translation>
+        <translation>Anonymous mód engedélyezése</translation>
     </message>
     <message>
         <source>Maximum active downloads:</source>
@@ -934,7 +926,7 @@
     </message>
     <message>
         <source>Use UPnP / NAT-PMP to forward the port from my router</source>
-        <translation>UPnP / NAT-PMP használata a portok átirányítására</translation>
+        <translation>UPnP / NAT-PMP használata a porttovábbításhoz a routeremtől</translation>
     </message>
     <message>
         <source>Certificate:</source>
@@ -1006,7 +998,7 @@
     </message>
     <message>
         <source>KiB/s</source>
-        <translation>KiB/s</translation>
+        <translation>KiB/mp</translation>
     </message>
     <message>
         <source>Enable clickjacking protection</source>
@@ -1014,7 +1006,7 @@
     </message>
     <message>
         <source>Enable Cross-Site Request Forgery (CSRF) protection</source>
-        <translation>Engedélyezze a kereszt webhely kérelem hamisítás védelmét (CSRF)</translation>
+        <translation>Engedélyezze a kereszt-webhely kérelem hamisítás védelmét (CSRF)</translation>
     </message>
     <message>
         <source>Delete .torrent files afterwards</source>
@@ -1082,7 +1074,7 @@
     </message>
     <message>
         <source>Enable Host header validation</source>
-        <translation>Host fejléc érvényesítés engedélyezése</translation>
+        <translation>Kiszolgáló fejléc érvényesítés engedélyezése</translation>
     </message>
     <message>
         <source>Security</source>
@@ -1150,7 +1142,7 @@
     </message>
     <message>
         <source>Outstanding memory when checking torrents:</source>
-        <translation>Torrent ellenőrzéskor kiemelt memória mérete</translation>
+        <translation>Torrent ellenőrzéshez felhasznált memória mérete:</translation>
     </message>
     <message>
         <source>Anti-leech</source>
@@ -1166,7 +1158,7 @@
     </message>
     <message>
         <source>Allow multiple connections from the same IP address:</source>
-        <translation>Több kapcsolat engedélyezése ugyanarról az IP-címről</translation>
+        <translation>Több kapcsolat engedélyezése ugyanarról az IP-címről:</translation>
     </message>
     <message>
         <source>File pool size:</source>
@@ -1178,7 +1170,7 @@
     </message>
     <message>
         <source>Always announce to all tiers:</source>
-        <translation>Mindig jelentsen az összes szintnek</translation>
+        <translation>Mindig jelentsen az összes szintnek:</translation>
     </message>
     <message>
         <source>Embedded tracker port:</source>
@@ -1202,7 +1194,7 @@
     </message>
     <message>
         <source>Send buffer watermark factor:</source>
-        <translation>Buffer watermark factor küldése</translation>
+        <translation>Küldési puffer watermark factor:</translation>
     </message>
     <message>
         <source>libtorrent Section</source>
@@ -1246,7 +1238,7 @@
     </message>
     <message>
         <source>Send buffer watermark:</source>
-        <translation>Buffer watermark küldése:</translation>
+        <translation>Küldési puffer watermark:</translation>
     </message>
     <message>
         <source>Peer proportional (throttles TCP)</source>
@@ -1290,7 +1282,7 @@
     </message>
     <message>
         <source>Send buffer low watermark:</source>
-        <translation>Buffer low watermark küldése:</translation>
+        <translation>Küldési puffer low watermark:</translation>
     </message>
     <message>
         <source>Save resume data interval:</source>
@@ -1390,7 +1382,7 @@
     </message>
     <message>
         <source>Maximum number of articles per feed:</source>
-        <translation>Csatornánkénti cikkek maximum száma:</translation>
+        <translation>Csatornánkénti elemek maximum száma:</translation>
     </message>
     <message>
         <source> min</source>
@@ -1406,7 +1398,7 @@
     </message>
     <message>
         <source>Disallow connection to peers on privileged ports:</source>
-        <translation>Tiltsa le a kapcsolatot az peerek felé a kiváltságos portokon:</translation>
+        <translation>Tiltsa le a kapcsolódást a kiváltságos portot használó peerek felé:</translation>
     </message>
     <message>
         <source>Enable auto downloading of RSS torrents</source>
@@ -1454,7 +1446,7 @@
     </message>
     <message>
         <source>Outgoing connections per second:</source>
-        <translation>Másodpercenkénti kimenő kapcsolatok:</translation>
+        <translation>Kimenő kapcsolatok másodpercenként:</translation>
     </message>
     <message>
         <source>Random</source>
@@ -1510,7 +1502,7 @@
     </message>
     <message>
         <source>Max active checking torrents:</source>
-        <translation>Torrentek aktív ellenőrzésének maximális száma:</translation>
+        <translation>Ellenőrzés alatt álló aktív torrentek maximális száma:</translation>
     </message>
     <message>
         <source>Memory mapped files</source>
@@ -1594,7 +1586,7 @@ In order to defend against DNS rebinding attack,
 you should put in domain names used by WebUI server.
 
 Use ';' to split multiple entries. Can use wildcard '*'.</source>
-        <translation>Fehérlista a HTTP Host fejléc értékek szűrésére.
+        <translation>Fehérlista a HTTP Kiszolgáló fejléc értékek szűrésére.
 A DNS újrakötési támadások ellen,
 írja be a WebUI kiszolgáló domain neveit.
 
@@ -1622,35 +1614,55 @@ Használja a ';' karaktert az elválasztásra, ha több is van. A '*' helyettes�
     </message>
     <message>
         <source>Files checked</source>
-        <translation type="unfinished" />
+        <translation>Fájlok ellenőrizve</translation>
     </message>
     <message>
         <source>Enable port forwarding for embedded tracker:</source>
-        <translation type="unfinished" />
+        <translation>Porttovábbítás a beépített tracker számára:</translation>
     </message>
     <message>
         <source>If checked, hostname lookups are done via the proxy.</source>
-        <translation type="unfinished" />
+        <translation>Ha be van jelölve, a kiszolgáló nevek proxyn keresztül lesznek feloldva.</translation>
     </message>
     <message>
         <source>Use proxy for hostname lookup</source>
-        <translation type="unfinished" />
+        <translation>Proxy használata kiszolgálónevek feloldásához</translation>
     </message>
     <message>
         <source>Metadata received</source>
-        <translation type="unfinished" />
+        <translation>Metaadat fogadva</translation>
     </message>
     <message>
         <source>Torrent stop condition:</source>
-        <translation type="unfinished" />
+        <translation>Torrent stop feltétel:</translation>
     </message>
     <message>
         <source>None</source>
-        <translation type="unfinished" />
+        <translation>Nincs</translation>
     </message>
     <message>
         <source>Example: 172.17.32.0/24, fdff:ffff:c8::/40</source>
-        <translation type="unfinished" />
+        <translation>Példa: 172.17.32.0/24, fdff:ffff:c8::/40</translation>
+    </message>
+    <message>
+        <source>SQLite database (experimental)</source>
+        <translation>SQLite adatbázis (kísérleti)</translation>
+    </message>
+    <message>
+        <source>Resume data storage type (requires restart):</source>
+        <translation>Folytatási-adat tároló típusa (újraindítást igényel)</translation>
+    </message>
+    <message>
+        <source>Fastresume files</source>
+        <translation>Gyors-folytatás fájlok</translation>
+    </message>
+    <message>
+        <source>(None)</source>
+        <translation>(Nincs)</translation>
+    </message>
+    <message>
+        <source>Use proxy only for torrents</source>
+        <translation>Csak a torrentekhez használjon proxyt</translation>
     </message>
 </context>
 <context>
@@ -1733,7 +1745,7 @@ Használja a ';' karaktert az elválasztásra, ha több is van. A '*' helyettes�
     </message>
     <message>
         <source>Peer ID Client</source>
-        <translation type="unfinished" />
+        <translation>Peer ID Kliens</translation>
     </message>
 </context>
 <context>
@@ -1741,7 +1753,7 @@ Használja a ';' karaktert az elválasztásra, ha több is van. A '*' helyettes�
     <message>
         <source>Normal</source>
         <comment>Normal (priority)</comment>
-        <translation>Átlagos</translation>
+        <translation>Normál</translation>
     </message>
     <message>
         <source>High</source>
@@ -1950,7 +1962,7 @@ Használja a ';' karaktert az elválasztásra, ha több is van. A '*' helyettes�
     </message>
     <message>
         <source>N/A</source>
-        <translation>Nincs adat</translation>
+        <translation>N/A</translation>
     </message>
     <message>
         <source>Progress:</source>
@@ -2035,7 +2047,7 @@ Használja a ';' karaktert az elválasztásra, ha több is van. A '*' helyettes�
     </message>
     <message>
         <source>Total buffer size:</source>
-        <translation>Teljes buffer méret:</translation>
+        <translation>Teljes pufferméret:</translation>
     </message>
     <message>
         <source>Performance statistics</source>
@@ -2226,7 +2238,7 @@ Használja a ';' karaktert az elválasztásra, ha több is van. A '*' helyettes�
     <message>
         <source>ETA</source>
         <comment>i.e: Estimated Time of Arrival / Time left</comment>
-        <translation>Idő</translation>
+        <translation>Várható befejezési idő</translation>
     </message>
     <message>
         <source>Category</source>
@@ -2357,7 +2369,7 @@ Használja a ';' karaktert az elválasztásra, ha több is van. A '*' helyettes�
     </message>
     <message>
         <source>Disabled</source>
-        <translation>Kikapcsolva</translation>
+        <translation>Letiltva</translation>
     </message>
     <message>
         <source>Not contacted yet</source>
@@ -2464,7 +2476,7 @@ Használja a ';' karaktert az elválasztásra, ha több is van. A '*' helyettes�
     </message>
     <message>
         <source>[F] Seeding</source>
-        <translation>[F] Seedelés</translation>
+        <translation>[K] Seedelés</translation>
     </message>
     <message>
         <source>Seeding</source>
@@ -2480,7 +2492,7 @@ Használja a ';' karaktert az elválasztásra, ha több is van. A '*' helyettes�
     </message>
     <message>
         <source>[F] Downloading</source>
-        <translation>[F] Letöltés</translation>
+        <translation>[K] Letöltés</translation>
     </message>
     <message>
         <source>Downloading metadata</source>
@@ -2516,7 +2528,7 @@ Használja a ';' karaktert az elválasztásra, ha több is van. A '*' helyettes�
     </message>
     <message>
         <source>[F] Downloading metadata</source>
-        <translation>[F] Metaadatok letöltése</translation>
+        <translation>[K] Metaadatok letöltése</translation>
     </message>
 </context>
 <context>
@@ -2560,7 +2572,7 @@ Használja a ';' karaktert az elválasztásra, ha több is van. A '*' helyettes�
     <message>
         <source>Force Resume</source>
         <comment>Force Resume/start the torrent</comment>
-        <translation>Erőltetett folytatás</translation>
+        <translation>Kényszerített folytatás</translation>
     </message>
     <message>
         <source>Pause</source>
@@ -2623,7 +2635,7 @@ Használja a ';' karaktert az elválasztásra, ha több is van. A '*' helyettes�
     <message>
         <source>Reset</source>
         <comment>Reset category</comment>
-        <translation>Reset</translation>
+        <translation>Alaphelyzetbe állít</translation>
     </message>
     <message>
         <source>Force recheck</source>
@@ -3376,7 +3388,7 @@ Használja a ';' karaktert az elválasztásra, ha több is van. A '*' helyettes�
     </message>
     <message>
         <source>Matching RSS Articles</source>
-        <translation>Egyező RSS cikkek</translation>
+        <translation>Egyező RSS elemek</translation>
     </message>
     <message>
         <source>* to match zero or more of any characters</source>
@@ -3647,4 +3659,7 @@ Támogatja a formátumokat: S01E01, 1x1, 2017.12.31 és 31.12.2017. (A dátumfor
         <translation>Olvasatlan</translation>
     </message>
 </context>
+<context>
+    <name>ExecutionLogWidget</name>
+    </context>
 </TS>

@@ -52,19 +52,19 @@
     </message>
     <message>
         <source>Metadata received</source>
-        <translation type="unfinished" />
+        <translation>Метаданни получени</translation>
     </message>
     <message>
         <source>Files checked</source>
-        <translation type="unfinished" />
+        <translation>Файлове проверени</translation>
     </message>
     <message>
         <source>Stop condition:</source>
-        <translation type="unfinished" />
+        <translation>Условие за спиране:</translation>
     </message>
     <message>
         <source>None</source>
-        <translation type="unfinished" />
+        <translation>Няма</translation>
     </message>
 </context>
 <context>
@@ -110,7 +110,7 @@
     </message>
     <message>
         <source>Remove torrents</source>
-        <translation type="unfinished" />
+        <translation>Премахни торенти</translation>
     </message>
 </context>
 <context>
@@ -386,7 +386,7 @@
     </message>
     <message>
         <source>Are you sure you want to remove the selected torrents from the transfer list?</source>
-        <translation type="unfinished" />
+        <translation>Сигурни ли сте, че искате да изтриете избраните торенти от списъка за трансфер?</translation>
     </message>
 </context>
 <context>
@@ -598,19 +598,19 @@
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished" />
+        <translation>Прекрати</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation type="unfinished" />
+        <translation>Премахни</translation>
     </message>
     <message>
         <source>Would you like to resume all torrents?</source>
-        <translation type="unfinished" />
+        <translation>Бихте ли искали да продължите всички торенти?</translation>
     </message>
     <message>
         <source>Would you like to pause all torrents?</source>
-        <translation type="unfinished" />
+        <translation>Бихте ли искали да поставите на пауза всички торенти?</translation>
     </message>
 </context>
 <context>
@@ -784,10 +784,6 @@
         <translation>Тип:</translation>
     </message>
     <message>
-        <source>(None)</source>
-        <translation>(Без)</translation>
-    </message>
-    <message>
         <source>SOCKS4</source>
         <translation>SOCKS4</translation>
     </message>
@@ -810,10 +806,6 @@
     <message>
         <source>Use proxy for peer connections</source>
         <translation>Използвайте прокси за свързване между участниците</translation>
-    </message>
-    <message>
-        <source>Use proxy only for torrents</source>
-        <translation>Използване на прокси само за торентите</translation>
     </message>
     <message>
         <source>Filter path (.dat, .p2p, .p2b):</source>
@@ -1535,47 +1527,47 @@
     </message>
     <message>
         <source>Write-through (requires libtorrent &gt;= 2.0.6)</source>
-        <translation type="unfinished" />
+        <translation>Пиши-през (изисква libtorrent &gt;= 2.0.6)</translation>
     </message>
     <message>
         <source>It controls the internal state update interval which in turn will affect UI updates</source>
-        <translation type="unfinished" />
+        <translation>Контролира интервала на обновяване на вътрешното състояние, което от своя страна засяга опреснявания на ПИ</translation>
     </message>
     <message>
         <source>Disk IO read mode:</source>
-        <translation type="unfinished" />
+        <translation>Режим на четене на ВИ на диск:</translation>
     </message>
     <message>
         <source>Disable OS cache</source>
-        <translation type="unfinished" />
+        <translation>Забрани кеш на ОС</translation>
     </message>
     <message>
         <source>Disk IO write mode:</source>
-        <translation type="unfinished" />
+        <translation>Режим на писане на ВИ на диск:</translation>
     </message>
     <message>
         <source>Use piece extent affinity:</source>
-        <translation type="unfinished" />
+        <translation>Използвай афинитет на размер на парче:</translation>
     </message>
     <message>
         <source>Max concurrent HTTP announces:</source>
-        <translation type="unfinished" />
+        <translation>Макс. едновременни HTTP анонси:</translation>
     </message>
     <message>
         <source>Enable OS cache</source>
-        <translation type="unfinished" />
+        <translation>Включи кеш на ОС</translation>
     </message>
     <message>
         <source>Refresh interval:</source>
-        <translation type="unfinished" />
+        <translation>Интервал на опресняване:</translation>
     </message>
     <message>
         <source>Physical memory (RAM) usage limit (applied if libtorrent &gt;= 2.0):</source>
-        <translation type="unfinished" />
+        <translation>Предел на потребление на физическа памет (RAM) (приложено, ако libtorrent &gt;= 2.0):</translation>
     </message>
     <message>
         <source>ms</source>
-        <translation type="unfinished" />
+        <translation>мс</translation>
     </message>
     <message>
         <source>Excluded file names</source>
@@ -1583,11 +1575,11 @@
     </message>
     <message>
         <source>Support internationalized domain name (IDN):</source>
-        <translation type="unfinished" />
+        <translation>Поддържа интернационализирано домейн име (IDN):</translation>
     </message>
     <message>
         <source>Run external program on torrent finished</source>
-        <translation type="unfinished" />
+        <translation>Изпълни външна програма на приключен торент</translation>
     </message>
     <message>
         <source>Whitelist for filtering HTTP Host header values.
@@ -1599,55 +1591,75 @@ Use ';' to split multiple entries. Can use wildcard '*'.</source>
     </message>
     <message>
         <source>Run external program on torrent added</source>
-        <translation type="unfinished" />
+        <translation>Изпълни външна програма на добавен торент</translation>
     </message>
     <message>
         <source>HTTPS certificate should not be empty</source>
-        <translation type="unfinished" />
+        <translation>HTTPS сертификат не бива да бъде празен</translation>
     </message>
     <message>
         <source>Specify reverse proxy IPs (or subnets, e.g. 0.0.0.0/24) in order to use forwarded client address (X-Forwarded-For header). Use ';' to split multiple entries.</source>
-        <translation type="unfinished" />
+        <translation>Посочете ИП-та на обратно прокси (или подмрежи, напр. 0.0.0.0/24), за да използвате препратени клиент адреси (X-Препратени-За заглавка). Използвайте ';' да разделите множество вписвания.</translation>
     </message>
     <message>
         <source>HTTPS key should not be empty</source>
-        <translation type="unfinished" />
+        <translation>HTTPS ключ не бива да бъде празен</translation>
     </message>
     <message>
         <source>Run external program</source>
-        <translation type="unfinished" />
+        <translation>Изпълни външна програма</translation>
     </message>
     <message>
         <source>Files checked</source>
-        <translation type="unfinished" />
+        <translation>Файлове проверени</translation>
     </message>
     <message>
         <source>Enable port forwarding for embedded tracker:</source>
-        <translation type="unfinished" />
+        <translation>Разреши пренасочване на портове за вграден тракер:</translation>
     </message>
     <message>
         <source>If checked, hostname lookups are done via the proxy.</source>
-        <translation type="unfinished" />
+        <translation>Ако е отметнато, търсения на име на хост се прави чрез проксито.</translation>
     </message>
     <message>
         <source>Use proxy for hostname lookup</source>
-        <translation type="unfinished" />
+        <translation>Използвай прокси за търсения на име на хост</translation>
     </message>
     <message>
         <source>Metadata received</source>
-        <translation type="unfinished" />
+        <translation>Метаданни получени</translation>
     </message>
     <message>
         <source>Torrent stop condition:</source>
-        <translation type="unfinished" />
+        <translation>Условие за спиране на торент:</translation>
     </message>
     <message>
         <source>None</source>
-        <translation type="unfinished" />
+        <translation>Няма</translation>
     </message>
     <message>
         <source>Example: 172.17.32.0/24, fdff:ffff:c8::/40</source>
+        <translation>Пример: 172.17.32.0/24, fdff:ffff:c8::/40</translation>
+    </message>
+    <message>
+        <source>SQLite database (experimental)</source>
+        <translation>SQLite база данни (експериментално)</translation>
+    </message>
+    <message>
+        <source>Resume data storage type (requires restart):</source>
         <translation type="unfinished" />
+    </message>
+    <message>
+        <source>Fastresume files</source>
+        <translation>Бързо възобновяване на файлове</translation>
+    </message>
+    <message>
+        <source>(None)</source>
+        <translation>(Без)</translation>
+    </message>
+    <message>
+        <source>Use proxy only for torrents</source>
+        <translation>Използване на прокси само за торентите</translation>
     </message>
 </context>
 <context>
@@ -1730,7 +1742,7 @@ Use ';' to split multiple entries. Can use wildcard '*'.</source>
     </message>
     <message>
         <source>Peer ID Client</source>
-        <translation type="unfinished" />
+        <translation>Клиент на участник ИД</translation>
     </message>
 </context>
 <context>
@@ -2426,7 +2438,7 @@ Use ';' to split multiple entries. Can use wildcard '*'.</source>
     </message>
     <message>
         <source>Add trackers...</source>
-        <translation type="unfinished" />
+        <translation>Добави тракери...</translation>
     </message>
 </context>
 <context>
@@ -2437,7 +2449,7 @@ Use ';' to split multiple entries. Can use wildcard '*'.</source>
     </message>
     <message>
         <source>Add trackers</source>
-        <translation type="unfinished" />
+        <translation>Добави тракери</translation>
     </message>
 </context>
 <context>
@@ -2720,7 +2732,7 @@ Use ';' to split multiple entries. Can use wildcard '*'.</source>
     </message>
     <message>
         <source>Remove</source>
-        <translation type="unfinished" />
+        <translation>Премахни</translation>
     </message>
 </context>
 <context>
@@ -2757,11 +2769,11 @@ Use ';' to split multiple entries. Can use wildcard '*'.</source>
     <name>confirmDeletionDlg</name>
     <message>
         <source>Also permanently delete the files</source>
-        <translation type="unfinished" />
+        <translation>Също изтрий за постоянно файловете</translation>
     </message>
     <message>
         <source>Remove torrent(s)</source>
-        <translation type="unfinished" />
+        <translation>Премахни торент(и)</translation>
     </message>
 </context>
 <context>
@@ -2957,11 +2969,11 @@ Use ';' to split multiple entries. Can use wildcard '*'.</source>
     </message>
     <message>
         <source>Click the "Search plugins..." button at the bottom right of the window to install some.</source>
-        <translation type="unfinished" />
+        <translation>Щракнете бутонът "Търси приставки..." на дъното вдясно на прозореца да инсталирате някакви.</translation>
     </message>
     <message>
         <source>There aren't any search plugins installed.</source>
-        <translation type="unfinished" />
+        <translation>Няма никакви инсталирани търсещи приставки.</translation>
     </message>
 </context>
 <context>
@@ -3112,7 +3124,7 @@ Use ';' to split multiple entries. Can use wildcard '*'.</source>
     </message>
     <message>
         <source>Remove torrents</source>
-        <translation type="unfinished" />
+        <translation>Премахни торенти</translation>
     </message>
 </context>
 <context>
@@ -3630,7 +3642,7 @@ Supports the formats: S01E01, 1x1, 2017.12.31 and 31.12.2017 (Date formats also 
     </message>
     <message>
         <source>Remove torrents</source>
-        <translation type="unfinished" />
+        <translation>Премахни торенти</translation>
     </message>
 </context>
 <context>
@@ -3644,4 +3656,7 @@ Supports the formats: S01E01, 1x1, 2017.12.31 and 31.12.2017 (Date formats also 
         <translation>Непрочетен</translation>
     </message>
 </context>
+<context>
+    <name>ExecutionLogWidget</name>
+    </context>
 </TS>
