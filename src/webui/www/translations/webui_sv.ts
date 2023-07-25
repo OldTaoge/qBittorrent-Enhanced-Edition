@@ -52,19 +52,19 @@
     </message>
     <message>
         <source>Metadata received</source>
-        <translation type="unfinished" />
+        <translation>Metadata mottagna</translation>
     </message>
     <message>
         <source>Files checked</source>
-        <translation type="unfinished" />
+        <translation>Filer kontrollerade</translation>
     </message>
     <message>
         <source>Stop condition:</source>
-        <translation type="unfinished" />
+        <translation>Stoppvillkor:</translation>
     </message>
     <message>
         <source>None</source>
-        <translation type="unfinished" />
+        <translation>Inget</translation>
     </message>
 </context>
 <context>
@@ -181,7 +181,7 @@
     </message>
     <message>
         <source>The port used for the Web UI must be between 1 and 65535.</source>
-        <translation>Porten som används för webbgränssnittet måste vara mellan 1 och 65535</translation>
+        <translation>Porten som används för webbgränssnittet måste vara mellan 1 och 65535.</translation>
     </message>
     <message>
         <source>Unable to log in, qBittorrent is probably unreachable.</source>
@@ -189,7 +189,7 @@
     </message>
     <message>
         <source>Invalid Username or Password.</source>
-        <translation>Felaktigt Användarnamn eller Lösenord</translation>
+        <translation>Felaktigt användarnamn eller lösenord.</translation>
     </message>
     <message>
         <source>Username</source>
@@ -289,7 +289,7 @@
     </message>
     <message>
         <source>Download Torrents from their URLs or Magnet links</source>
-        <translation>Hämta torrenter från deras URLs eller magnetlänkar</translation>
+        <translation>Hämta torrenter från deras URL:er eller magnetlänkar</translation>
     </message>
     <message>
         <source>Upload local torrent</source>
@@ -605,11 +605,11 @@
     </message>
     <message>
         <source>Would you like to resume all torrents?</source>
-        <translation type="unfinished" />
+        <translation>Vill du återuppta alla torrenter?</translation>
     </message>
     <message>
         <source>Would you like to pause all torrents?</source>
-        <translation type="unfinished" />
+        <translation>Vill du pausa alla torrenter?</translation>
     </message>
 </context>
 <context>
@@ -783,10 +783,6 @@
         <translation>Typ:</translation>
     </message>
     <message>
-        <source>(None)</source>
-        <translation>(Ingen)</translation>
-    </message>
-    <message>
         <source>SOCKS4</source>
         <translation>SOCKS4</translation>
     </message>
@@ -809,10 +805,6 @@
     <message>
         <source>Use proxy for peer connections</source>
         <translation>Använd proxy för jämlikeanslutningar</translation>
-    </message>
-    <message>
-        <source>Use proxy only for torrents</source>
-        <translation>Använd proxy endast för torrenter</translation>
     </message>
     <message>
         <source>Filter path (.dat, .p2p, .p2b):</source>
@@ -1166,11 +1158,11 @@
     </message>
     <message>
         <source>Allow multiple connections from the same IP address:</source>
-        <translation>Tillåt flera anslutningar från samma IP-adress</translation>
+        <translation>Tillåt flera anslutningar från samma IP-adress:</translation>
     </message>
     <message>
         <source>File pool size:</source>
-        <translation>Filpool storlek</translation>
+        <translation>Filpoolstorlek:</translation>
     </message>
     <message>
         <source>Any interface</source>
@@ -1210,7 +1202,7 @@
     </message>
     <message>
         <source>Outgoing ports (Min) [0: Disabled]:</source>
-        <translation>Utgående portar (min) [0: Inaktiverat]:</translation>
+        <translation>Utgående portar (min) [0: inaktiverat]:</translation>
     </message>
     <message>
         <source>Recheck torrents on completion:</source>
@@ -1234,7 +1226,7 @@
     </message>
     <message>
         <source>Outgoing ports (Max) [0: Disabled]:</source>
-        <translation>Utgående portar (max) [0: Inaktiverat]</translation>
+        <translation>Utgående portar (max) [0: inaktiverat]:</translation>
     </message>
     <message>
         <source>Asynchronous I/O threads:</source>
@@ -1282,7 +1274,7 @@
     </message>
     <message>
         <source>Upload slots behavior:</source>
-        <translation>Beteende för sändningsplatser</translation>
+        <translation>Beteende för sändningsplatser:</translation>
     </message>
     <message>
         <source>MiB</source>
@@ -1314,7 +1306,7 @@
     </message>
     <message>
         <source>Stop tracker timeout:</source>
-        <translation>Stopptidsgräns för spårare</translation>
+        <translation>Stopptidsgräns för spårare:</translation>
     </message>
     <message>
         <source>Ban client after consecutive failures:</source>
@@ -1326,7 +1318,7 @@
     </message>
     <message>
         <source>UPnP lease duration [0: Permanent lease]:</source>
-        <translation>UPnP-anslutningstid [0: Permanent anslutning]:</translation>
+        <translation>UPnP-anslutningstid [0: permanent anslutning]:</translation>
     </message>
     <message>
         <source>Header: value pairs, one per line</source>
@@ -1622,35 +1614,55 @@ Använd ";" för att dela upp i flera poster. Du kan använda jokertecknet "*".<
     </message>
     <message>
         <source>Files checked</source>
-        <translation type="unfinished" />
+        <translation>Filer kontrollerade</translation>
     </message>
     <message>
         <source>Enable port forwarding for embedded tracker:</source>
-        <translation type="unfinished" />
+        <translation>Aktivera portvidarebefordran för inbäddad spårare:</translation>
     </message>
     <message>
         <source>If checked, hostname lookups are done via the proxy.</source>
-        <translation type="unfinished" />
+        <translation>Om ifylld görs värdnamnsuppslag via proxy.</translation>
     </message>
     <message>
         <source>Use proxy for hostname lookup</source>
-        <translation type="unfinished" />
+        <translation>Använd proxy för värdnamnsuppslag</translation>
     </message>
     <message>
         <source>Metadata received</source>
-        <translation type="unfinished" />
+        <translation>Metadata mottagna</translation>
     </message>
     <message>
         <source>Torrent stop condition:</source>
-        <translation type="unfinished" />
+        <translation>Torrent-stoppvillkor:</translation>
     </message>
     <message>
         <source>None</source>
-        <translation type="unfinished" />
+        <translation>Inget</translation>
     </message>
     <message>
         <source>Example: 172.17.32.0/24, fdff:ffff:c8::/40</source>
-        <translation type="unfinished" />
+        <translation>Exempel: 172.17.32.0/24, fdff:ffff:c8::/40</translation>
+    </message>
+    <message>
+        <source>SQLite database (experimental)</source>
+        <translation>SQLite-databas (experimentell)</translation>
+    </message>
+    <message>
+        <source>Resume data storage type (requires restart):</source>
+        <translation>Återuppta datalagringstyp (kräver omstart):</translation>
+    </message>
+    <message>
+        <source>Fastresume files</source>
+        <translation>Snabbåteruppta filer</translation>
+    </message>
+    <message>
+        <source>(None)</source>
+        <translation>(Ingen)</translation>
+    </message>
+    <message>
+        <source>Use proxy only for torrents</source>
+        <translation>Använd proxy endast för torrenter</translation>
     </message>
 </context>
 <context>
@@ -1733,7 +1745,7 @@ Använd ";" för att dela upp i flera poster. Du kan använda jokertecknet "*".<
     </message>
     <message>
         <source>Peer ID Client</source>
-        <translation type="unfinished" />
+        <translation>Jämlike ID-klient</translation>
     </message>
 </context>
 <context>
@@ -2771,7 +2783,7 @@ Använd ";" för att dela upp i flera poster. Du kan använda jokertecknet "*".<
     <name>downloadFromURL</name>
     <message>
         <source>Download from URLs</source>
-        <translation>Hämta från URLs</translation>
+        <translation>Hämta från URL:er</translation>
     </message>
     <message>
         <source>Download</source>
@@ -3647,4 +3659,7 @@ Stöder formaten: S01E01, 1x1, 2017.12.31 och 31.12.2017 (datumformatet stöder 
         <translation>Oläst</translation>
     </message>
 </context>
+<context>
+    <name>ExecutionLogWidget</name>
+    </context>
 </TS>

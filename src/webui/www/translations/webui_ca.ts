@@ -52,19 +52,19 @@
     </message>
     <message>
         <source>Metadata received</source>
-        <translation type="unfinished" />
+        <translation>Metadades rebudes</translation>
     </message>
     <message>
         <source>Files checked</source>
-        <translation type="unfinished" />
+        <translation>Fitxers comprovats</translation>
     </message>
     <message>
         <source>Stop condition:</source>
-        <translation type="unfinished" />
+        <translation>Condició d'aturada:</translation>
     </message>
     <message>
         <source>None</source>
-        <translation type="unfinished" />
+        <translation>Cap</translation>
     </message>
 </context>
 <context>
@@ -449,7 +449,7 @@ Si us plau, no useu cap caràcter especial al nom de la categoria.</translation>
     </message>
     <message>
         <source>Pause</source>
-        <translation>Pausa</translation>
+        <translation>Interromp</translation>
     </message>
     <message>
         <source>Pause All</source>
@@ -606,11 +606,11 @@ Si us plau, no useu cap caràcter especial al nom de la categoria.</translation>
     </message>
     <message>
         <source>Would you like to resume all torrents?</source>
-        <translation type="unfinished" />
+        <translation>Voleu reprendre tots els torrents?</translation>
     </message>
     <message>
         <source>Would you like to pause all torrents?</source>
-        <translation type="unfinished" />
+        <translation>Voleu interrompre tots els torrents?</translation>
     </message>
 </context>
 <context>
@@ -784,10 +784,6 @@ Si us plau, no useu cap caràcter especial al nom de la categoria.</translation>
         <translation>Tipus:</translation>
     </message>
     <message>
-        <source>(None)</source>
-        <translation>(Cap)</translation>
-    </message>
-    <message>
         <source>SOCKS4</source>
         <translation>SOCKS4</translation>
     </message>
@@ -810,10 +806,6 @@ Si us plau, no useu cap caràcter especial al nom de la categoria.</translation>
     <message>
         <source>Use proxy for peer connections</source>
         <translation>Usa un servidor intermediari per a connexions d'igual a igual</translation>
-    </message>
-    <message>
-        <source>Use proxy only for torrents</source>
-        <translation>Utilitza el servidor intermediari només per als torrents</translation>
     </message>
     <message>
         <source>Filter path (.dat, .p2p, .p2b):</source>
@@ -1623,35 +1615,55 @@ Useu ";" per separar les entrades. Podeu usar el comodí "*".</translation>
     </message>
     <message>
         <source>Files checked</source>
-        <translation type="unfinished" />
+        <translation>Fitxers comprovats</translation>
     </message>
     <message>
         <source>Enable port forwarding for embedded tracker:</source>
-        <translation type="unfinished" />
+        <translation>Habilita el reenviament de port per al rastrejador integrat:</translation>
     </message>
     <message>
         <source>If checked, hostname lookups are done via the proxy.</source>
-        <translation type="unfinished" />
+        <translation>Si es marca, les cerques de nom d'amfitrió es fan a través de l'intermediari.</translation>
     </message>
     <message>
         <source>Use proxy for hostname lookup</source>
-        <translation type="unfinished" />
+        <translation>Usa l'intermediari per a les cerques de noms d'amfitrió.</translation>
     </message>
     <message>
         <source>Metadata received</source>
-        <translation type="unfinished" />
+        <translation>Metadades rebudes</translation>
     </message>
     <message>
         <source>Torrent stop condition:</source>
-        <translation type="unfinished" />
+        <translation>Condició d'aturada del torrent:</translation>
     </message>
     <message>
         <source>None</source>
-        <translation type="unfinished" />
+        <translation>Cap</translation>
     </message>
     <message>
         <source>Example: 172.17.32.0/24, fdff:ffff:c8::/40</source>
-        <translation type="unfinished" />
+        <translation>Exemple: 172.17.32.0/24, fdff:ffff:c8::/40</translation>
+    </message>
+    <message>
+        <source>SQLite database (experimental)</source>
+        <translation>Base de dades SQLite (experimental)</translation>
+    </message>
+    <message>
+        <source>Resume data storage type (requires restart):</source>
+        <translation>Tipus d'emmagatzematge de dades de represa (requereix reiniciar)</translation>
+    </message>
+    <message>
+        <source>Fastresume files</source>
+        <translation>Fitxers de represa ràpida</translation>
+    </message>
+    <message>
+        <source>(None)</source>
+        <translation>(Cap)</translation>
+    </message>
+    <message>
+        <source>Use proxy only for torrents</source>
+        <translation>Utilitza el servidor intermediari només per als torrents</translation>
     </message>
 </context>
 <context>
@@ -1734,7 +1746,7 @@ Useu ";" per separar les entrades. Podeu usar el comodí "*".</translation>
     </message>
     <message>
         <source>Peer ID Client</source>
-        <translation type="unfinished" />
+        <translation>ID del client</translation>
     </message>
 </context>
 <context>
@@ -2091,7 +2103,7 @@ Useu ";" per separar les entrades. Podeu usar el comodí "*".</translation>
     </message>
     <message>
         <source>Paused (0)</source>
-        <translation>En pausa (0)</translation>
+        <translation>Interromputs (0)</translation>
     </message>
     <message>
         <source>Active (0)</source>
@@ -2123,7 +2135,7 @@ Useu ";" per separar les entrades. Podeu usar el comodí "*".</translation>
     </message>
     <message>
         <source>Paused (%1)</source>
-        <translation>En pausa (%1)</translation>
+        <translation>Interromputs (%1)</translation>
     </message>
     <message>
         <source>Resumed (%1)</source>
@@ -2453,7 +2465,7 @@ Useu ";" per separar les entrades. Podeu usar el comodí "*".</translation>
     </message>
     <message>
         <source>Paused</source>
-        <translation>En pausa</translation>
+        <translation>Interromput</translation>
     </message>
     <message>
         <source>Completed</source>
@@ -2566,7 +2578,7 @@ Useu ";" per separar les entrades. Podeu usar el comodí "*".</translation>
     <message>
         <source>Pause</source>
         <comment>Pause the torrent</comment>
-        <translation>Pausa</translation>
+        <translation>Interromp</translation>
     </message>
     <message>
         <source>Limit share ratio...</source>
@@ -3557,7 +3569,7 @@ Useu ";" per separar les entrades. Podeu usar el comodí "*".</translation>
     </message>
     <message>
         <source>Add Paused:</source>
-        <translation>Afegeix en pausa:</translation>
+        <translation>Afegeix els interromputs:</translation>
     </message>
     <message>
         <source>Please type the name of the new download rule.</source>
@@ -3648,4 +3660,7 @@ Admet els formats S01E01, 1x1, 2017.12.31 i 31.12.2017 (Els formats de data tamb
         <translation>No llegit</translation>
     </message>
 </context>
+<context>
+    <name>ExecutionLogWidget</name>
+    </context>
 </TS>

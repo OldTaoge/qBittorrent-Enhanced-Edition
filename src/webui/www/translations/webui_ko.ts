@@ -52,19 +52,19 @@
     </message>
     <message>
         <source>Metadata received</source>
-        <translation type="unfinished" />
+        <translation>수신된 메타데이터</translation>
     </message>
     <message>
         <source>Files checked</source>
-        <translation type="unfinished" />
+        <translation>파일 확인됨</translation>
     </message>
     <message>
         <source>Stop condition:</source>
-        <translation type="unfinished" />
+        <translation>중지 조건:</translation>
     </message>
     <message>
         <source>None</source>
-        <translation type="unfinished" />
+        <translation>없음</translation>
     </message>
 </context>
 <context>
@@ -605,11 +605,11 @@
     </message>
     <message>
         <source>Would you like to resume all torrents?</source>
-        <translation type="unfinished" />
+        <translation>모든 토렌트를 이어받기하시겠습니까?</translation>
     </message>
     <message>
         <source>Would you like to pause all torrents?</source>
-        <translation type="unfinished" />
+        <translation>모든 토렌트를 일시 정지하시겠습니까?</translation>
     </message>
 </context>
 <context>
@@ -783,10 +783,6 @@
         <translation>유형:</translation>
     </message>
     <message>
-        <source>(None)</source>
-        <translation>(없음)</translation>
-    </message>
-    <message>
         <source>SOCKS4</source>
         <translation>SOCKS4</translation>
     </message>
@@ -809,10 +805,6 @@
     <message>
         <source>Use proxy for peer connections</source>
         <translation>피어 연결에 프록시 사용하기</translation>
-    </message>
-    <message>
-        <source>Use proxy only for torrents</source>
-        <translation>토렌트에 프록시만 사용하기</translation>
     </message>
     <message>
         <source>Filter path (.dat, .p2p, .p2b):</source>
@@ -1018,7 +1010,7 @@
     </message>
     <message>
         <source>Delete .torrent files afterwards</source>
-        <translation>다운로드 후 .torrent 파일 삭제하기</translation>
+        <translation>내려받은 후 .torrent 파일 삭제하기</translation>
     </message>
     <message>
         <source>Download rate threshold:</source>
@@ -1622,35 +1614,55 @@ DNS 재결합 공격을 방어하기 위해
     </message>
     <message>
         <source>Files checked</source>
-        <translation type="unfinished" />
+        <translation>파일 확인됨</translation>
     </message>
     <message>
         <source>Enable port forwarding for embedded tracker:</source>
-        <translation type="unfinished" />
+        <translation>임베디드 트래커에 대한 포트 포워딩 활성화</translation>
     </message>
     <message>
         <source>If checked, hostname lookups are done via the proxy.</source>
-        <translation type="unfinished" />
+        <translation>이 옵션을 선택하면, 프록시를 통해 호스트 이름 검색이 수행됩니다.</translation>
     </message>
     <message>
         <source>Use proxy for hostname lookup</source>
-        <translation type="unfinished" />
+        <translation>호스트 이름 조회에 프록시 사용하기</translation>
     </message>
     <message>
         <source>Metadata received</source>
-        <translation type="unfinished" />
+        <translation>수신된 메타데이터</translation>
     </message>
     <message>
         <source>Torrent stop condition:</source>
-        <translation type="unfinished" />
+        <translation>토렌트 중지 조건:</translation>
     </message>
     <message>
         <source>None</source>
-        <translation type="unfinished" />
+        <translation>없음</translation>
     </message>
     <message>
         <source>Example: 172.17.32.0/24, fdff:ffff:c8::/40</source>
-        <translation type="unfinished" />
+        <translation>예시: 172.17.32.0/24, fdff:ffff:c8::/40</translation>
+    </message>
+    <message>
+        <source>SQLite database (experimental)</source>
+        <translation>SQLite 데이터베이스 (실험적)</translation>
+    </message>
+    <message>
+        <source>Resume data storage type (requires restart):</source>
+        <translation>이어받기 데이터 저장소 유형 (재시작 필요):</translation>
+    </message>
+    <message>
+        <source>Fastresume files</source>
+        <translation>Fastresume 파일</translation>
+    </message>
+    <message>
+        <source>(None)</source>
+        <translation>(없음)</translation>
+    </message>
+    <message>
+        <source>Use proxy only for torrents</source>
+        <translation>토렌트에 프록시만 사용하기</translation>
     </message>
 </context>
 <context>
@@ -1684,7 +1696,7 @@ DNS 재결합 공격을 방어하기 위해
     <message>
         <source>Down Speed</source>
         <comment>i.e: Download speed</comment>
-        <translation>다운로드 속도</translation>
+        <translation>받기 속도</translation>
     </message>
     <message>
         <source>Up Speed</source>
@@ -1733,7 +1745,7 @@ DNS 재결합 공격을 방어하기 위해
     </message>
     <message>
         <source>Peer ID Client</source>
-        <translation type="unfinished" />
+        <translation>피어 ID 클라이언트</translation>
     </message>
 </context>
 <context>
@@ -2211,7 +2223,7 @@ DNS 재결합 공격을 방어하기 위해
     <message>
         <source>Down Speed</source>
         <comment>i.e: Download speed</comment>
-        <translation>다운로드 속도</translation>
+        <translation>받기 속도</translation>
     </message>
     <message>
         <source>Up Speed</source>
@@ -2253,7 +2265,7 @@ DNS 재결합 공격을 방어하기 위해
     <message>
         <source>Down Limit</source>
         <comment>i.e: Download limit</comment>
-        <translation>다운로드 제한</translation>
+        <translation>받기 제한</translation>
     </message>
     <message>
         <source>Up Limit</source>
@@ -2760,7 +2772,7 @@ DNS 재결합 공격을 방어하기 위해
     <name>confirmDeletionDlg</name>
     <message>
         <source>Also permanently delete the files</source>
-        <translation>영구적으로 파일도 삭제하기</translation>
+        <translation>또한 파일을 영구적으로 삭제합니다</translation>
     </message>
     <message>
         <source>Remove torrent(s)</source>
@@ -3301,7 +3313,7 @@ DNS 재결합 공격을 방어하기 위해
     </message>
     <message>
         <source>Mark items read</source>
-        <translation>읽은 것으로 표시</translation>
+        <translation>읽은 항목들 표시</translation>
     </message>
     <message>
         <source>Update all feeds</source>
@@ -3647,4 +3659,7 @@ Supports the formats: S01E01, 1x1, 2017.12.31 and 31.12.2017 (Date formats also 
         <translation>읽지 않음</translation>
     </message>
 </context>
+<context>
+    <name>ExecutionLogWidget</name>
+    </context>
 </TS>

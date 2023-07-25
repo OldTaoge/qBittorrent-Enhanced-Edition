@@ -52,19 +52,19 @@
     </message>
     <message>
         <source>Metadata received</source>
-        <translation type="unfinished" />
+        <translation>Üstveriler alındı</translation>
     </message>
     <message>
         <source>Files checked</source>
-        <translation type="unfinished" />
+        <translation>Dosyalar denetlendi</translation>
     </message>
     <message>
         <source>Stop condition:</source>
-        <translation type="unfinished" />
+        <translation>Durdurma koşulu:</translation>
     </message>
     <message>
         <source>None</source>
-        <translation type="unfinished" />
+        <translation>Yok</translation>
     </message>
 </context>
 <context>
@@ -605,11 +605,11 @@
     </message>
     <message>
         <source>Would you like to resume all torrents?</source>
-        <translation type="unfinished" />
+        <translation>Tüm torrent'leri devam ettirmek ister misiniz?</translation>
     </message>
     <message>
         <source>Would you like to pause all torrents?</source>
-        <translation type="unfinished" />
+        <translation>Tüm torrent'leri duraklatmak ister misiniz?</translation>
     </message>
 </context>
 <context>
@@ -783,10 +783,6 @@
         <translation>Türü:</translation>
     </message>
     <message>
-        <source>(None)</source>
-        <translation>(Yok)</translation>
-    </message>
-    <message>
         <source>SOCKS4</source>
         <translation>SOCKS4</translation>
     </message>
@@ -809,10 +805,6 @@
     <message>
         <source>Use proxy for peer connections</source>
         <translation>Kişi bağlantıları için proksi kullan</translation>
-    </message>
-    <message>
-        <source>Use proxy only for torrents</source>
-        <translation>Sadece torrent'ler için proksi kullan</translation>
     </message>
     <message>
         <source>Filter path (.dat, .p2p, .p2b):</source>
@@ -1622,35 +1614,55 @@ sunucusu tarafından kullanılan etki alanı adlarına eklemelisiniz.
     </message>
     <message>
         <source>Files checked</source>
-        <translation type="unfinished" />
+        <translation>Dosyalar denetlendi</translation>
     </message>
     <message>
         <source>Enable port forwarding for embedded tracker:</source>
-        <translation type="unfinished" />
+        <translation>Gömülü izleyici için bağlantı noktası yönlendirmeyi etkinleştir:</translation>
     </message>
     <message>
         <source>If checked, hostname lookups are done via the proxy.</source>
-        <translation type="unfinished" />
+        <translation>Eğer işaretlendiyse, anamakine adı aramaları proksi aracılığıyla yapılır.</translation>
     </message>
     <message>
         <source>Use proxy for hostname lookup</source>
-        <translation type="unfinished" />
+        <translation>Anamakine adı araması için proksi kullan</translation>
     </message>
     <message>
         <source>Metadata received</source>
-        <translation type="unfinished" />
+        <translation>Üstveriler alındı</translation>
     </message>
     <message>
         <source>Torrent stop condition:</source>
-        <translation type="unfinished" />
+        <translation>Torrent durdurma koşulu:</translation>
     </message>
     <message>
         <source>None</source>
-        <translation type="unfinished" />
+        <translation>Yok</translation>
     </message>
     <message>
         <source>Example: 172.17.32.0/24, fdff:ffff:c8::/40</source>
-        <translation type="unfinished" />
+        <translation>Örnek: 172.17.32.0/24, fdff:ffff:c8::/40</translation>
+    </message>
+    <message>
+        <source>SQLite database (experimental)</source>
+        <translation>SQLite veritabanı (deneysel)</translation>
+    </message>
+    <message>
+        <source>Resume data storage type (requires restart):</source>
+        <translation>Devam verisi depolama türü (yeniden başlatma gerektirir):</translation>
+    </message>
+    <message>
+        <source>Fastresume files</source>
+        <translation>Hızlı devam dosyaları</translation>
+    </message>
+    <message>
+        <source>(None)</source>
+        <translation>(Yok)</translation>
+    </message>
+    <message>
+        <source>Use proxy only for torrents</source>
+        <translation>Sadece torrent'ler için proksi kullan</translation>
     </message>
 </context>
 <context>
@@ -1733,7 +1745,7 @@ sunucusu tarafından kullanılan etki alanı adlarına eklemelisiniz.
     </message>
     <message>
         <source>Peer ID Client</source>
-        <translation type="unfinished" />
+        <translation>Kişi Kimliği İstemcisi</translation>
     </message>
 </context>
 <context>
@@ -2181,7 +2193,7 @@ sunucusu tarafından kullanılan etki alanı adlarına eklemelisiniz.
     <message>
         <source>Name</source>
         <comment>i.e: torrent name</comment>
-        <translation>Adı</translation>
+        <translation>Ad</translation>
     </message>
     <message>
         <source>Size</source>
@@ -2413,7 +2425,7 @@ sunucusu tarafından kullanılan etki alanı adlarına eklemelisiniz.
     </message>
     <message>
         <source>Name</source>
-        <translation>Adı</translation>
+        <translation>Ad</translation>
     </message>
     <message>
         <source>Progress</source>
@@ -2691,7 +2703,7 @@ sunucusu tarafından kullanılan etki alanı adlarına eklemelisiniz.
     </message>
     <message>
         <source>Name</source>
-        <translation>Adı</translation>
+        <translation>Ad</translation>
     </message>
     <message>
         <source>Copy</source>
@@ -3010,7 +3022,7 @@ sunucusu tarafından kullanılan etki alanı adlarına eklemelisiniz.
     <name>SearchResultsTable</name>
     <message>
         <source>Name</source>
-        <translation>Adı</translation>
+        <translation>Ad</translation>
     </message>
     <message>
         <source>Size</source>
@@ -3033,7 +3045,7 @@ sunucusu tarafından kullanılan etki alanı adlarına eklemelisiniz.
     <name>SearchPluginsTable</name>
     <message>
         <source>Name</source>
-        <translation>Adı</translation>
+        <translation>Ad</translation>
     </message>
     <message>
         <source>Url</source>
@@ -3169,7 +3181,7 @@ sunucusu tarafından kullanılan etki alanı adlarına eklemelisiniz.
     </message>
     <message>
         <source>Name:</source>
-        <translation>Adı:</translation>
+        <translation>Ad:</translation>
     </message>
     <message>
         <source>About qBittorrent</source>
@@ -3243,7 +3255,7 @@ sunucusu tarafından kullanılan etki alanı adlarına eklemelisiniz.
     </message>
     <message>
         <source>Name</source>
-        <translation>Adı</translation>
+        <translation>Ad</translation>
     </message>
     <message>
         <source>Description page URL</source>
@@ -3647,4 +3659,7 @@ Desteklenen biçimler: S01E01, 1x1, 2017.12.31 ve 31.12.2017 (Tarih biçimleri d
         <translation>Okunmadı</translation>
     </message>
 </context>
+<context>
+    <name>ExecutionLogWidget</name>
+    </context>
 </TS>

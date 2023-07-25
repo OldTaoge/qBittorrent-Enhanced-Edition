@@ -88,6 +88,7 @@
 #include "base/version.h"
 #include "applicationinstancemanager.h"
 #include "filelogger.h"
+#include "upgrade.h"
 
 #ifndef DISABLE_GUI
 #include "gui/addnewtorrentdialog.h"
@@ -170,6 +171,18 @@ Application::Application(int &argc, char **argv)
 
     SettingsStorage::initInstance();
     Preferences::initInstance();
+
+    const bool firstTimeUser = !Preferences::instance()->getAcceptedLegal();
+    if (!firstTimeUser)
+    {
+        if (!upgrade())
+            throw RuntimeError(u"Failed migration of old settings"_qs); // Not translatable. Translation isn't configured yet.
+        handleChangedDefaults(DefaultPreferencesMode::Legacy);
+    }
+    else
+    {
+        handleChangedDefaults(DefaultPreferencesMode::Current);
+    }
 
     initializeTranslation();
 
@@ -440,6 +453,7 @@ void Application::runExternalProgram(const QString &programTemplate, const BitTo
     };
 
     const QString logMsg = tr("Running external program. Torrent: \"%1\". Command: `%2`");
+    const QString logMsgError = tr("Failed to run external program. Torrent: \"%1\". Command: `%2`");
 
     // The processing sequenece is different for Windows and other OS, this is intentional
 #if defined(Q_OS_WIN)
@@ -458,8 +472,6 @@ void Application::runExternalProgram(const QString &programTemplate, const BitTo
     QStringList argList;
     for (int i = 1; i < argCount; ++i)
         argList += QString::fromWCharArray(args[i]);
-
-    LogMsg(logMsg.arg(torrent->name(), program));
 
     QProcess proc;
     proc.setProgram(QString::fromWCharArray(args[0]));
@@ -485,7 +497,11 @@ void Application::runExternalProgram(const QString &programTemplate, const BitTo
         args->startupInfo->hStdOutput = nullptr;
         args->startupInfo->hStdError = nullptr;
     });
-    proc.startDetached();
+
+    if (proc.startDetached())
+        LogMsg(logMsg.arg(torrent->name(), program));
+    else
+        LogMsg(logMsgError.arg(torrent->name(), program));
 #else // Q_OS_WIN
     QStringList args = Utils::String::splitCommand(programTemplate);
 
@@ -501,11 +517,21 @@ void Application::runExternalProgram(const QString &programTemplate, const BitTo
         arg = replaceVariables(arg);
     }
 
-    // show intended command in log
-    LogMsg(logMsg.arg(torrent->name(), replaceVariables(programTemplate)));
-
     const QString command = args.takeFirst();
-    QProcess::startDetached(command, args);
+    QProcess proc;
+    proc.setProgram(command);
+    proc.setArguments(args);
+
+    if (proc.startDetached())
+    {
+        // show intended command in log
+        LogMsg(logMsg.arg(torrent->name(), replaceVariables(programTemplate)));
+    }
+    else
+    {
+        // show intended command in log
+        LogMsg(logMsgError.arg(torrent->name(), replaceVariables(programTemplate)));
+    }
 #endif
 }
 
@@ -658,8 +684,7 @@ Application::AddTorrentParams Application::parseParams(const QStringList &params
             continue;
         }
 
-        parsedParams.torrentSource = param;
-        break;
+        parsedParams.torrentSources.append(param);
     }
 
     return parsedParams;
@@ -675,10 +700,16 @@ void Application::processParams(const AddTorrentParams &params)
     // should be overridden.
     const bool showDialogForThisTorrent = !params.skipTorrentDialog.value_or(!AddNewTorrentDialog::isEnabled());
     if (showDialogForThisTorrent)
-        AddNewTorrentDialog::show(params.torrentSource, params.torrentParams, m_window);
+    {
+        for (const QString &torrentSource : params.torrentSources)
+            AddNewTorrentDialog::show(torrentSource, params.torrentParams, m_window);
+    }
     else
 #endif
-        BitTorrent::Session::instance()->addTorrent(params.torrentSource, params.torrentParams);
+    {
+        for (const QString &torrentSource : params.torrentSources)
+            BitTorrent::Session::instance()->addTorrent(torrentSource, params.torrentParams);
+    }
 }
 
 int Application::exec(const QStringList &params)
@@ -714,7 +745,7 @@ try
     actionExit->setIcon(UIThemeManager::instance()->getIcon(u"application-exit"_qs));
     actionExit->setMenuRole(QAction::QuitRole);
     actionExit->setShortcut(Qt::CTRL | Qt::Key_Q);
-    connect(actionExit, &QAction::triggered, this, [this]()
+    connect(actionExit, &QAction::triggered, this, []
     {
         QApplication::exit();
     });
@@ -788,12 +819,9 @@ try
         });
 
         disconnect(m_desktopIntegration, &DesktopIntegration::activationRequested, this, &Application::createStartupProgressDialog);
-        // we must not delete menu while it is used by DesktopIntegration
-        auto *oldMenu = m_desktopIntegration->menu();
         const MainWindow::State windowState = (!m_startupProgressDialog || (m_startupProgressDialog->windowState() & Qt::WindowMinimized))
                 ? MainWindow::Minimized : MainWindow::Normal;
         m_window = new MainWindow(this, windowState);
-        delete oldMenu;
         delete m_startupProgressDialog;
 #ifdef Q_OS_WIN
         auto *pref = Preferences::instance();

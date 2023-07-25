@@ -52,19 +52,19 @@
     </message>
     <message>
         <source>Metadata received</source>
-        <translation type="unfinished" />
+        <translation>Metadados recebidos</translation>
     </message>
     <message>
         <source>Files checked</source>
-        <translation type="unfinished" />
+        <translation>Arquivos verificados</translation>
     </message>
     <message>
         <source>Stop condition:</source>
-        <translation type="unfinished" />
+        <translation>Condição de parada:</translation>
     </message>
     <message>
         <source>None</source>
-        <translation type="unfinished" />
+        <translation>Nenhum</translation>
     </message>
 </context>
 <context>
@@ -605,11 +605,11 @@
     </message>
     <message>
         <source>Would you like to resume all torrents?</source>
-        <translation type="unfinished" />
+        <translation>Você gostaria de retomar todos os torrents?</translation>
     </message>
     <message>
         <source>Would you like to pause all torrents?</source>
-        <translation type="unfinished" />
+        <translation>Você gostaria de pausar todos os torrents?</translation>
     </message>
 </context>
 <context>
@@ -783,10 +783,6 @@
         <translation>Tipo:</translation>
     </message>
     <message>
-        <source>(None)</source>
-        <translation>(Nenhum)</translation>
-    </message>
-    <message>
         <source>SOCKS4</source>
         <translation>SOCKS4</translation>
     </message>
@@ -809,10 +805,6 @@
     <message>
         <source>Use proxy for peer connections</source>
         <translation>Usar proxy pra conexões com os peers</translation>
-    </message>
-    <message>
-        <source>Use proxy only for torrents</source>
-        <translation>Usar proxy só pra torrents</translation>
     </message>
     <message>
         <source>Filter path (.dat, .p2p, .p2b):</source>
@@ -1622,35 +1614,55 @@ Use ';' pra dividir múltiplas entradas. Pode usar o wildcard '*'.</translation>
     </message>
     <message>
         <source>Files checked</source>
-        <translation type="unfinished" />
+        <translation>Arquivos verificados</translation>
     </message>
     <message>
         <source>Enable port forwarding for embedded tracker:</source>
-        <translation type="unfinished" />
+        <translation>Habilitar encaminhamento de porta para o rastreador incorporado:</translation>
     </message>
     <message>
         <source>If checked, hostname lookups are done via the proxy.</source>
-        <translation type="unfinished" />
+        <translation>Se marcado, as pesquisas de nome de host são feitas por meio do proxy.</translation>
     </message>
     <message>
         <source>Use proxy for hostname lookup</source>
-        <translation type="unfinished" />
+        <translation>Usar proxy para pesquisas de nome de host</translation>
     </message>
     <message>
         <source>Metadata received</source>
-        <translation type="unfinished" />
+        <translation>Metadados recebidos</translation>
     </message>
     <message>
         <source>Torrent stop condition:</source>
-        <translation type="unfinished" />
+        <translation>Condição de parada do torrent:</translation>
     </message>
     <message>
         <source>None</source>
-        <translation type="unfinished" />
+        <translation>Nenhum</translation>
     </message>
     <message>
         <source>Example: 172.17.32.0/24, fdff:ffff:c8::/40</source>
-        <translation type="unfinished" />
+        <translation>Exemplo: 172.17.32.0/24, fdff:ffff:c8::/40</translation>
+    </message>
+    <message>
+        <source>SQLite database (experimental)</source>
+        <translation>Banco de dados SQLite (experimental)</translation>
+    </message>
+    <message>
+        <source>Resume data storage type (requires restart):</source>
+        <translation>Tipo de armazenamento de dados de retomada (necessário reiniciar):</translation>
+    </message>
+    <message>
+        <source>Fastresume files</source>
+        <translation>Arquivos de retomada rápida</translation>
+    </message>
+    <message>
+        <source>(None)</source>
+        <translation>(Nenhum)</translation>
+    </message>
+    <message>
+        <source>Use proxy only for torrents</source>
+        <translation>Usar proxy só pra torrents</translation>
     </message>
 </context>
 <context>
@@ -1733,7 +1745,7 @@ Use ';' pra dividir múltiplas entradas. Pode usar o wildcard '*'.</translation>
     </message>
     <message>
         <source>Peer ID Client</source>
-        <translation type="unfinished" />
+        <translation>Cliente de ID do peer</translation>
     </message>
 </context>
 <context>
@@ -3647,4 +3659,7 @@ Suporta os formatos: S01E01, 1x1, 2017.12.31 e 31.12.2017 (Os formatos de data t
         <translation>Não lido</translation>
     </message>
 </context>
+<context>
+    <name>ExecutionLogWidget</name>
+    </context>
 </TS>

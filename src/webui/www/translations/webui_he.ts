@@ -64,7 +64,7 @@
     </message>
     <message>
         <source>None</source>
-        <translation type="unfinished" />
+        <translation>(כלום)</translation>
     </message>
 </context>
 <context>
@@ -783,10 +783,6 @@
         <translation>סוג:</translation>
     </message>
     <message>
-        <source>(None)</source>
-        <translation>(כלום)</translation>
-    </message>
-    <message>
         <source>SOCKS4</source>
         <translation>SOCKS4</translation>
     </message>
@@ -809,10 +805,6 @@
     <message>
         <source>Use proxy for peer connections</source>
         <translation>השתמש בייפוי כוח עבור חיבורי עמיתים</translation>
-    </message>
-    <message>
-        <source>Use proxy only for torrents</source>
-        <translation>השתמש בייפוי כוח רק לטורנטים</translation>
     </message>
     <message>
         <source>Filter path (.dat, .p2p, .p2b):</source>
@@ -1546,7 +1538,7 @@
     </message>
     <message>
         <source>Disable OS cache</source>
-        <translation type="unfinished" />
+        <translation>השבת מטמון OS</translation>
     </message>
     <message>
         <source>Disk IO write mode:</source>
@@ -1646,11 +1638,31 @@ Use ';' to split multiple entries. Can use wildcard '*'.</source>
     </message>
     <message>
         <source>None</source>
-        <translation type="unfinished" />
+        <translation>(כלום)</translation>
     </message>
     <message>
         <source>Example: 172.17.32.0/24, fdff:ffff:c8::/40</source>
+        <translation>דוגמה: 172.17.32.0/24, fdff:ffff:c8::/40</translation>
+    </message>
+    <message>
+        <source>SQLite database (experimental)</source>
+        <translation>מסד נתונים SQLite (ניסיוני)</translation>
+    </message>
+    <message>
+        <source>Resume data storage type (requires restart):</source>
         <translation type="unfinished" />
+    </message>
+    <message>
+        <source>Fastresume files</source>
+        <translation>קבצי המשכה מהירה</translation>
+    </message>
+    <message>
+        <source>(None)</source>
+        <translation>(כלום)</translation>
+    </message>
+    <message>
+        <source>Use proxy only for torrents</source>
+        <translation>השתמש בייפוי כוח רק לטורנטים</translation>
     </message>
 </context>
 <context>
@@ -3647,4 +3659,7 @@ Supports the formats: S01E01, 1x1, 2017.12.31 and 31.12.2017 (Date formats also 
         <translation>לא נקרא</translation>
     </message>
 </context>
+<context>
+    <name>ExecutionLogWidget</name>
+    </context>
 </TS>
