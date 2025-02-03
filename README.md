@@ -1,4 +1,4 @@
-qBittorrent Enhanced Edition
+qBittorrent Enhanced Edition - mob transmission id
 ------------------------------------------
 [Important Note for user and tracker operators](NOTE.md)
 ********************************
